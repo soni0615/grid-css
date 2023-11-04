@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 200px);
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+
+        }
+
+        .gallery1 {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .gallery2 {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+
+        }
+
+
+        .gallery3 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start:1;
+            grid-column-end: 2;
+        }
+
+        .gallery4 {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start:2;
+            grid-column-end: 3;
+        }
+
+        .gallery5 {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+
+        .gallery6 {
+            grid-row-start:2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="gallery1"><img class="itemimg1"
+                src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image">
+        </div>
+        <div class="gallery2">
+            <img class="itemimg2"
+                src="https://images.pexels.com/photos/2218344/pexels-photo-2218344.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image">
+        </div>
+        <div class="gallery3">
+            <img class="itemimg3"
+                src="https://images.pexels.com/photos/1400136/pexels-photo-1400136.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image">
+        </div>
+        <div class="gallery4">
+            <img class="itemimg4"
+                src="https://images.pexels.com/photos/288478/pexels-photo-288478.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image">
+        </div>
+        <div class="gallery5"><img class="itemimg5"
+                src="https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"></div>
+
+        <div class="gallery6">
+            <img class="itemimg6"
+                src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image">
+        </div>
+    </div>
+
+
+</body>
+
+</html>

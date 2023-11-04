@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 5px;
+            grid-auto-rows: 100px;
+
+        }
+.item{
+    height: 100px;
+    width: 100px;
+}
+        .item1 {
+            background-color: aqua;
+        }
+
+        .item2 {
+            background-color: rgb(14, 222, 21);
+
+        }
+
+        .item3 {
+            background-color: red;
+
+        }
+        .container1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-gap: 5px;
+            grid-auto-columns: 100px;
+
+        }
+
+        .item4 {
+            background-color: aqua;
+        }
+
+        .item5 {
+            background-color: rgb(14, 222, 21);
+
+        }
+
+        .item6 {
+            background-color: red;
+
+
+        }
+
+    </style>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <p><strong>Grid-Auto-Row:-</strong>Grid-Auto-Row is used for adding the row.Suppose someone is added the grid template row property like repeat(2,1fr) and but we are adding three rows or more so this property uses on that time.Basically it sets the size for the rows.It works on the parent level.
+    </p>
+    <h3>Example of Grid-Auto-Row:-</h3>
+    <div class="container">
+        <div class="item item1">item1</div>
+        <div class="item item2">item2</div>
+        <div class="item item3">item3</div>
+    </div>
+    <p><strong>Grid-Auto-Column:-</strong>Grid auto column property is used for set the size of grid columns.We can fixed the specify size of the columns.It works on the width of columns.
+    
+    
+    </p>
+    <h3>Example of Grid-Auto-Column:-</h3>
+    <div class="container1">
+        <div class="item item4">item4</div>
+        <div class="item item5">item5</div>
+        <div class="item item6">item6</div>
+    </div>
+
+</body>
+
+</html>

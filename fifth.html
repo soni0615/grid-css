@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .item1 {
+            justify-self: center;
+            background-color: aqua;
+        }
+
+        .item2 {
+            background-color: palevioletred;
+        }
+
+        .container1 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: right;
+        }
+
+        .item3 {
+            background-color: chartreuse;
+        }
+
+        .item4 {
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <p><strong>Justify-Self:-</strong>justify-self apply individually to particular items.Its just used for aligning the
+        items in horizontal direction.It is suitable for flex and grid both type of layouts.We can move in
+        right,left,center direction horizontally using justify-self.This property works on items.
+    </p>
+    <h3>Example of Justify-Self:-</h3>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+    </div>
+
+    <p><strong>Justify-Items:-</strong>Justify-Items applies on the parent just on container level not just on
+        particular items.It is suitable for flex and grid both type of layouts.It just defines the default justify-self
+        items.It also works in horizontal direction.This property applies on all the items.
+    </p>
+    <h3>Example of Justify-Items:-</h3>
+    <div class="container1">
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
